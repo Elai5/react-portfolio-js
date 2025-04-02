@@ -62,6 +62,49 @@ export default function Navbar() {
           </span>
         </li>
       </ul>
+      {/* second navbar for mobile */}
+      {menuOpen && (
+        <div className="fixed top-0 left-0 w-full h-screen bg-gray-900 bg-opacity-90 flex flex-col items-center justify-center z-50">
+          <button
+            className="absolute top-5 right-5 text-white text-3xl"
+            onClick={() => setMenuOpen(false)}
+          >
+            <FaTimes />
+          </button>
+          <ul className="space-y-6 text-center">
+            <li
+              className=" flex items-center gap-2 text-lg"
+              onClick={() => setMenuOpen(false)}
+            >
+              <FaHome /> <span>Home</span>
+            </li>
+            <li
+              className=" flex items-center gap-2 text-lg"
+              onClick={() => setMenuOpen(false)}
+            >
+              <FaUser /> <span>About</span>
+            </li>
+            <li
+              className=" flex items-center gap-2 text-lg"
+              onClick={() => setMenuOpen(false)}
+            >
+              <FaBriefcase /> <span>Projects</span>
+            </li>
+            <li
+              className=" flex items-center gap-2 text-lg"
+              onClick={() => setMenuOpen(false)}
+            >
+              <FaEnvelopeOpenText /> <span>Contact</span>
+            </li>
+            <li
+              className=" flex items-center gap-2 text-lg"
+              onClick={() => setMenuOpen(false)}
+            >
+              <FaBlog /> <span>Blog</span>
+            </li>
+          </ul>
+        </div>
+      )}
     </nav>
   );
 }
