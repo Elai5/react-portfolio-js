@@ -4,6 +4,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import About from "./components/About";
+import AboutPage from "./components/AboutPage";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <Navbar />
       <LandingPage />
       <About />
+      {/* <AboutPage /> */}
+      <Projects />
     </div>
   );
 };
