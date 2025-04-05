@@ -80,7 +80,7 @@ const About = () => {
           </div>
         </section>
       </div>
-      <section className="tech-stack py-16 px-6 bg-gray-900 text-white">
+      <section className="tech-stack py-10 px-6 bg-gray-900 text-white text-center" >
         <h3 className="text-3xl font-semibold mb-6">Tech Stack</h3>
         <p className="text-lg mb-4 text-gray-300">
           These are the technologies I use and love working with:

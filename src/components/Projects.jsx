@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-20 px-6 pl-15 pr-15 bg-gray-950 text-white"
+      className="py-20 px-6 pl-15 pr-15 bg-gray-950 text-blue-500"
     >
       <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
       <div className="grid gap-10 md:grid-cols-2">
