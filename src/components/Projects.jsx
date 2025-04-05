@@ -8,7 +8,11 @@ export default function Projects() {
       id="projects"
       className="py-20 px-6 pl-15 pr-15 bg-gray-950 text-blue-500"
     >
-      <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
+      <h2 className="text-4xl font-bold text-center mb-6">My Projects</h2>
+      <h3 className="text-gray-600 text-center mb-8 text-xl italic">
+        "Each project begins with a problem, and I craft solution by translating
+        ideas into powerful, intutive design".{" "}
+      </h3>
       <div className="grid gap-10 md:grid-cols-2">
         {projects.map((project, index) => (
           <motion.div
@@ -24,14 +28,14 @@ export default function Projects() {
               alt={project.title}
               className="w-full h-75 "
             />
-            <div className="p-6 rounded-lg shadow-lg transition-transform duration--300 ease-in-out hover::scale-105 hover:shadow-2xl" >
+            <div className="p-6 rounded-lg shadow-lg transition-transform duration--300 ease-in-out hover::scale-105 hover:shadow-2xl">
               <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
               <p className="text-gray-300 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((tech, idx) => (
                   <span
                     key={idx}
-                    className="bg-blue-500 test-xs px-2 py-1 rounded-md"
+                    className="bg-blue-500 test-xs px-2 py-1 rounded-md text-gray-300"
                   >
                     {tech}
                   </span>

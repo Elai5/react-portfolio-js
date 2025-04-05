@@ -6,7 +6,7 @@ import LandingPage from "./components/LandingPage";
 import About from "./components/About";
 import AboutPage from "./components/AboutPage";
 import Projects from "./components/Projects";
-import { Blog } from "./components/Blog";
+import Blog from "./components/Blog";
 
 const App = () => {
   return (
@@ -16,6 +16,7 @@ const App = () => {
       <About />
       {/* <AboutPage /> */}
       <Projects />
+
       <Blog />
     </div>
   );

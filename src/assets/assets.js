@@ -6,7 +6,7 @@ import automa from "./automa.png";
 import canva from "./canva.jpg";
 import codee2 from "./codee2.jpeg";
 import creed from "./creed.png";
-import css from "./css3.jpg"; // Renamed from 'css3' for clarity
+import css from "./css3.jpg";
 import django from "./django.jpg";
 import figma from "./figma.jpg";
 import gcc from "./gcc.jpeg";
@@ -92,21 +92,13 @@ export const projects = [
 
 export const blogPosts = [
   {
-    title: "Public Speaking at Toastmasters",
-    timeline: "jan 2023 - September 2024",
-    community: "Toastmasters club",
-    description: "",
-  },
-  {
     id: 1,
-    title: "Teaching Web Design at CodeJIKA",
-    timeline: "Feb 2024",
-    community: "CodeJIKA",
+    title: "Leadership in Toastmasters: Growing and Empowering Members",
+    timeline: "2021",
+    community: "Toastmasters - Moi University",
     description:
-      "Mentored high school students in web design, creating interactive projects and teaching them html",
-    image: codee2,
+      "As an executive member of the Toastmasters Club, I played a vital role in nurturing the art of public speaking and effective communication. My contributions included helping the club grow to over 50 members, successfully launching the club, and officially registering it. This experience taught me the importance of leadership, teamwork, and fostering a supportive environment for members to develop and thrive.",
   },
-
   {
     id: 2,
     title: "Winning Second Place in Google Club Hackathon",
@@ -127,11 +119,12 @@ export const blogPosts = [
 
   {
     id: 4,
-    title: "Leadership in Toastmasters: Growing and Empowering Members",
-    timeline: "2021",
-    community: "Toastmasters - Moi University",
+    title: "Teaching Web Design at CodeJIKA",
+    timeline: "Feb 2024",
+    community: "CodeJIKA",
     description:
-      "As an executive member of the Toastmasters Club, I played a vital role in nurturing the art of public speaking and effective communication. My contributions included helping the club grow to over 50 members, successfully launching the club, and officially registering it. This experience taught me the importance of leadership, teamwork, and fostering a supportive environment for members to develop and thrive.",
+      "Mentored high school students in web design, creating interactive projects and teaching them html",
+    image: codee2,
   },
 
   {

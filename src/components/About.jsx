@@ -49,7 +49,11 @@ const About = () => {
             />
           </div>
           <div className="w-full md:w-1/2 md:pl-10">
-            <h2 className="text-3xl font-bold mb-4 text-blue-500">About Me</h2>
+            <h2 className="text-3xl font-bold mb-4 text-blue-500 ">About Me</h2>
+            <h3 className="text-xl text-gray-600 mb-5 pl-8 italic">
+              {" "}
+              "A passionate developer, lifelong learner, and mentor."
+            </h3>
             <p className="text-lg text-gray-300 mb-6">
               Hello! I'm Elaine Yvette, a passionate Front-end Developer with a
               keen intrest in UI/UX Design and web animation. I specialize in
@@ -80,7 +84,7 @@ const About = () => {
           </div>
         </section>
       </div>
-      <section className="tech-stack py-10 px-6 bg-gray-900 text-white text-center" >
+      <section className="tech-stack py-10 px-6 bg-gray-900 text-white text-center">
         <h3 className="text-3xl font-semibold mb-6">Tech Stack</h3>
         <p className="text-lg mb-4 text-gray-300">
           These are the technologies I use and love working with:
