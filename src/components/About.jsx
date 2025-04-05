@@ -7,7 +7,10 @@ const About = () => {
   return (
     <div className="about-page">
       <div className="min-h-screen flex items-center justify-center bg-gray-950 text-white py-16 px-6">
-        <section className="container mx-auto flex flex-col md:flex-row items-center justify-around gap-2 pl-10 pr-10 ">
+        <section
+          id="about"
+          className="container mx-auto flex flex-col md:flex-row items-center justify-around gap-2 pl-10 pr-10 "
+        >
           {/* <div className="w-full md:w-1/2 md:pl-10">
           <h2 className="text-3xl font-bold mb-4 text-blue-500">About Me</h2>
           <p className="text-lg text-gray-300 mb-6">

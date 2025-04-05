@@ -1,8 +1,6 @@
 /** @format */
-
+import React, { useState } from "react";
 import { nav } from "framer-motion/client";
-import React from "react";
-import { useState } from "react";
 import {
   FaBars,
   FaTimes,
@@ -31,35 +29,49 @@ export default function Navbar() {
       {/* desktop navbar */}
       <ul className="hidden md:flex gap-6">
         <li className="flex flex-col items-center group">
-          <FaHome size={24} className="group-hover:text-gray-300" />
-          <span className="text-xs opacity-0 group-hover:opacity-100">
-            Home
-          </span>
+          <a href="#home">
+            <FaHome size={24} className="group-hover:text-gray-300" />
+            <span className="text-xs opacity-0 group-hover:opacity-100">
+              Home
+            </span>
+          </a>
         </li>
         <li className="flex flex-col items-center group">
-          <FaUser size={24} className="group-hover:text-gray-300" />
-          <span className="text-xs opacity-0 group-hover:opacity-100">
-            About
-          </span>
+          <a href="#about">
+            <FaUser size={24} className="group-hover:text-gray-300" />
+            <span className="text-xs opacity-0 group-hover:opacity-100">
+              About
+            </span>
+          </a>
         </li>
         <li className="flex flex-col items-center group">
-          <FaBriefcase size={24} className="group-hover:text-gray-300" />
-          <span className="text-xs opacity-0 group-hover:opacity-100">
-            Projects
-          </span>
+          <a href="#projects">
+            <FaBriefcase size={24} className="group-hover:text-gray-300" />
+            <span className="text-xs opacity-0 group-hover:opacity-100">
+              Projects
+            </span>
+          </a>
         </li>
         <li className="flex flex-col items-center group">
-          <FaEnvelopeOpenText size={24} className="group-hover:text-gray-300" />
-          <span className="text-xs opacity-0 group-hover:opacity-100">
+          <a href="#contact">
             {" "}
-            Contact
-          </span>
+            <FaEnvelopeOpenText
+              size={24}
+              className="group-hover:text-gray-300"
+            />
+            <span className="text-xs opacity-0 group-hover:opacity-100">
+              {" "}
+              Contact
+            </span>
+          </a>
         </li>
         <li className="flex flex-col items-center group">
-          <FaBlog size={24} className="group-hover:text-gray-300" />
-          <span className="text-xs opacity-0 group-hover:opacity-100">
-            Blog
-          </span>
+          <a href="#blog">
+            <FaBlog size={24} className="group-hover:text-gray-300" />
+            <span className="text-xs opacity-0 group-hover:opacity-100">
+              Blog
+            </span>
+          </a>
         </li>
       </ul>
       {/* second navbar for mobile */}
@@ -76,31 +88,44 @@ export default function Navbar() {
               className=" flex items-center gap-2 text-lg"
               onClick={() => setMenuOpen(false)}
             >
-              <FaHome /> <span>Home</span>
+              <a href="#home">
+                <FaHome /> <span>Home</span>
+              </a>
             </li>
             <li
               className=" flex items-center gap-2 text-lg"
               onClick={() => setMenuOpen(false)}
             >
-              <FaUser /> <span>About</span>
+              <a href="#about">
+                {" "}
+                <FaUser /> <span>About</span>
+              </a>
             </li>
             <li
               className=" flex items-center gap-2 text-lg"
               onClick={() => setMenuOpen(false)}
             >
-              <FaBriefcase /> <span>Projects</span>
+              <a href="#projects">
+                {" "}
+                <FaBriefcase /> <span>Projects</span>
+              </a>
             </li>
             <li
               className=" flex items-center gap-2 text-lg"
               onClick={() => setMenuOpen(false)}
             >
-              <FaEnvelopeOpenText /> <span>Contact</span>
+              <a href="#contact">
+                {" "}
+                <FaEnvelopeOpenText /> <span>Contact</span>
+              </a>
             </li>
             <li
               className=" flex items-center gap-2 text-lg"
               onClick={() => setMenuOpen(false)}
             >
-              <FaBlog /> <span>Blog</span>
+              <a href="#blog">
+                <FaBlog /> <span>Blog</span>
+              </a>
             </li>
           </ul>
         </div>

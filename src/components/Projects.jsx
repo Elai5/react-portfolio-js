@@ -4,7 +4,10 @@ import { motion } from "framer-motion";
 import { assets, projects } from "../assets/assets";
 export default function Projects() {
   return (
-    <section className="py-20 px-6 pl-15 pr-15 bg-gray-950 text-white">
+    <section
+      id="projects"
+      className="py-20 px-6 pl-15 pr-15 bg-gray-950 text-white"
+    >
       <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
       <div className="grid gap-10 md:grid-cols-2">
         {projects.map((project, index) => (
@@ -21,7 +24,7 @@ export default function Projects() {
               alt={project.title}
               className="w-full h-75 "
             />
-            <div className="p-6">
+            <div className="p-6 rounded-lg shadow-lg transition-transform duration--300 ease-in-out hover::scale-105 hover:shadow-2xl" >
               <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
               <p className="text-gray-300 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
@@ -35,24 +38,23 @@ export default function Projects() {
                 ))}
               </div>
               <div className="flex gap-4">
-              <a
-                href={project.liveDemo}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md"
-              >
-                Live Demo
-              </a>
-              <a
-                href={project.liveDemo}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-4 py-2 bg-gray-700 hover:bg-blue-700 text-white rounded-md"
-              >
-                Github Link
-              </a>
+                <a
+                  href={project.liveDemo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href={project.liveDemo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 bg-gray-700 hover:bg-blue-700 text-white rounded-md"
+                >
+                  Github Link
+                </a>
               </div>
-          
             </div>
           </motion.div>
         ))}

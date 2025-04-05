@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Navbar from "./Navbar";
 import React, { useState, useEffect } from "react";
 
-
 export default function LandingPage() {
   const [dots, setDots] = useState([]);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,7 +20,10 @@ export default function LandingPage() {
   return (
     <div className="relative min-h screen bg-gray-900 text-white overflow-hidden">
       <Navbar />
-      <section className="flex flex-col items-center justify-center h-screen text-center px-6">
+      <section
+        id="home"
+        className="flex flex-col items-center justify-center h-screen text-center px-6"
+      >
         <motion.h1
           className="text-4xl md:text-6xl font-bold"
           initial={{ opacity: 0, y: -50 }}
