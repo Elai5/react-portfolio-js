@@ -52,6 +52,15 @@ export default function Navbar() {
             </span>
           </a>
         </li>
+
+        <li className="flex flex-col items-center group">
+          <a href="#blog">
+            <FaBlog size={24} className="group-hover:text-gray-300" />
+            <span className="text-xs opacity-0 group-hover:opacity-100">
+              Blog
+            </span>
+          </a>
+        </li>
         <li className="flex flex-col items-center group">
           <a href="#contact">
             {" "}
@@ -62,14 +71,6 @@ export default function Navbar() {
             <span className="text-xs opacity-0 group-hover:opacity-100">
               {" "}
               Contact
-            </span>
-          </a>
-        </li>
-        <li className="flex flex-col items-center group">
-          <a href="#blog">
-            <FaBlog size={24} className="group-hover:text-gray-300" />
-            <span className="text-xs opacity-0 group-hover:opacity-100">
-              Blog
             </span>
           </a>
         </li>
@@ -114,17 +115,17 @@ export default function Navbar() {
               className=" flex items-center gap-2 text-lg"
               onClick={() => setMenuOpen(false)}
             >
-              <a href="#contact">
-                {" "}
-                <FaEnvelopeOpenText /> <span>Contact</span>
+              <a href="#blog">
+                <FaBlog /> <span>Blog</span>
               </a>
             </li>
             <li
               className=" flex items-center gap-2 text-lg"
               onClick={() => setMenuOpen(false)}
             >
-              <a href="#blog">
-                <FaBlog /> <span>Blog</span>
+              <a href="#contact">
+                {" "}
+                <FaEnvelopeOpenText /> <span>Contact</span>
               </a>
             </li>
           </ul>
