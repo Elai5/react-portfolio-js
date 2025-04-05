@@ -24,12 +24,12 @@ const Contact = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        access_key: "80cf046d-5987-477d-98c6-56ed9f12b9a0", 
+        access_key: "80cf046d-5987-477d-98c6-56ed9f12b9a0",
         name: formData.name,
         email: formData.email,
         message: formData.message,
-        subject: "New Message from Portfolio",
-        from_name: "Elaine's Portfolio",
+        subject: "You just got a mail genius!!",
+        from_name: "Cest_Elaine",
       }),
     });
 
@@ -39,7 +39,7 @@ const Contact = () => {
       setIsSubmitted(true);
       setFormData({ name: "", email: "", message: "" });
     } else {
-      alert("Oops! Something went wrong.");
+      alert("Oops! Something went wrong, please refresh and try again.");
     }
   };
 
