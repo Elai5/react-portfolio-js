@@ -54,7 +54,7 @@ const About = () => {
               {" "}
               "A passionate developer, lifelong learner, and mentor."
             </h3>
-            <p className="text-lg text-gray-300 mb-6">
+            <p className="text-sm md:text-lg text-gray-300 mb-6">
               Hello! I'm Elaine Yvette, a passionate Front-end Developer with a
               keen intrest in UI/UX Design and web animation. I specialize in
               creating websites that provide seamless user experience. With a
@@ -79,7 +79,6 @@ const About = () => {
                 className="mt-6 inline-block px-8 py-3 bg-gray-700 text-white rounded-lg text-xl shadow-lg hover:bg-gray-600 transition duration-300"
               >
                 <a href="#project"> Download CV</a>
-                
               </a>
             </div>
           </div>
@@ -119,7 +118,6 @@ const About = () => {
             <img src={assets.bootsrap} alt="React" className="h-12 w-12" />
             <p className="text-center mt-2">BootStrap</p>
           </div>
-
           <div className="tech-logo">
             <img src={assets.wordpress} alt="React" className="h-12 w-12" />
             <p className="text-center mt-2">Wordpress</p>
