@@ -27,7 +27,7 @@ const Blog = () => {
                   <p className="text-xs md:text-sm text-gray-500">
                     {post.timeline} | {post.community}
                   </p>
-                  <p className="text-sm md:text-gray-700 mt-4">
+                  <p className="text-sm md:text-base text-gray-700 mt-4">
                     {post.description}
                   </p>
                 </div>

@@ -49,7 +49,7 @@ export default function Projects() {
                   href={project.liveDemo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md"
+                  className="inline-block px-4 py-2 text-sm md:text-base bg-blue-600 hover:bg-blue-700 text-white rounded-md"
                 >
                   Live Demo
                 </a>
