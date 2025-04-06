@@ -26,7 +26,7 @@ export default function Projects() {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-75 md:h-50"
+              className="w-full h-75 sm:h-50"
             />
             <div className="p-6 rounded-lg shadow-lg transition-transform duration--300 ease-in-out hover::scale-105 hover:shadow-2xl">
               <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
