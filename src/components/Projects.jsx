@@ -9,7 +9,7 @@ export default function Projects() {
       className="py-20 px-6 pl-15 pr-15 bg-gray-950 text-blue-500"
     >
       <h2 className="text-4xl font-bold text-center mb-6">My Projects</h2>
-      <h3 className="text-gray-600 text-center mb-8 text-xl italic">
+      <h3 className="text-gray-600 text-center mb-8 text-sm md:text-xl italic">
         "Each project begins with a problem, and I craft solution by translating
         ideas into powerful, intutive design".{" "}
       </h3>
@@ -30,7 +30,9 @@ export default function Projects() {
             />
             <div className="p-6 rounded-lg shadow-lg transition-transform duration--300 ease-in-out hover::scale-105 hover:shadow-2xl">
               <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
-              <p className="text-gray-300 mb-4 text-sm">{project.description}</p>
+              <p className="text-gray-300 mb-4 text-sm">
+                {project.description}
+              </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((tech, idx) => (
                   <span
