@@ -72,21 +72,22 @@ const About = () => {
                 href="#projects"
                 className="mt-6 inline-block px-8 py-3 bg-blue-500 text-white rounded-lg text-xl shadow-lg hover:bg-blue-600 transition duration-300"
               >
-                View My Work
+                <a href="#project"> View My Work</a>
               </a>
               <a
                 href="#contact"
                 className="mt-6 inline-block px-8 py-3 bg-gray-700 text-white rounded-lg text-xl shadow-lg hover:bg-gray-600 transition duration-300"
               >
-                View My Work
+                <a href="#project"> Download CV</a>
+                
               </a>
             </div>
           </div>
         </section>
       </div>
       <section className="tech-stack py-10 px-6 bg-gray-900 text-white text-center">
-        <h3 className="text-3xl font-semibold mb-6">Tech Stack</h3>
-        <p className="text-lg mb-4 text-gray-300">
+        <h3 className="text-4xl font-bold mb-6 text-blue-500">Tech Stack</h3>
+        <p className="text-gray-600 text-center mb-8 text-xl italic">
           These are the technologies I use and love working with:
         </p>
         <div className="flex flex-wrap justify-center gap-6">
@@ -107,13 +108,18 @@ const About = () => {
             <p className="text-center mt-2">React</p>
           </div>
           <div className="tech-logo">
+            <img src={assets.tailwind} alt="React" className="h-12 w-12" />
+            <p className="text-center mt-2">Tailwind</p>
+          </div>
+          <div className="tech-logo">
             <img src={assets.django} alt="React" className="h-12 w-12" />
             <p className="text-center mt-2">Django</p>
           </div>
           <div className="tech-logo">
-            <img src={assets.python} alt="React" className="h-12 w-12" />
-            <p className="text-center mt-2">Tailwind</p>
+            <img src={assets.bootsrap} alt="React" className="h-12 w-12" />
+            <p className="text-center mt-2">BootStrap</p>
           </div>
+
           <div className="tech-logo">
             <img src={assets.wordpress} alt="React" className="h-12 w-12" />
             <p className="text-center mt-2">Wordpress</p>
@@ -125,6 +131,14 @@ const About = () => {
           <div className="tech-logo">
             <img src={assets.figma} alt="Figma" className="h-12 w-12" />
             <p className="text-center mt-2">Figma</p>
+          </div>
+          <div className="tech-logo">
+            <img src={assets.airtable} alt="React" className="h-12 w-12" />
+            <p className="text-center mt-2">Airtable</p>
+          </div>
+          <div className="tech-logo">
+            <img src={assets.n8n} alt="React" className="h-12 w-12" />
+            <p className="text-center mt-2">N8N</p>
           </div>
         </div>
       </section>

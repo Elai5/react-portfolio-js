@@ -13,7 +13,7 @@ export default function Projects() {
         "Each project begins with a problem, and I craft solution by translating
         ideas into powerful, intutive design".{" "}
       </h3>
-      <div className="grid gap-10 md:grid-cols-2">
+      <div className="grid gap-6 md:grid-cols-2">
         {projects.map((project, index) => (
           <motion.div
             key={project.id}
@@ -26,11 +26,11 @@ export default function Projects() {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-75 sm:h-50"
+              className="w-full h-70 object-fit"
             />
             <div className="p-6 rounded-lg shadow-lg transition-transform duration--300 ease-in-out hover::scale-105 hover:shadow-2xl">
               <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
-              <p className="text-gray-300 mb-4">{project.description}</p>
+              <p className="text-gray-300 mb-4 text-sm">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((tech, idx) => (
                   <span

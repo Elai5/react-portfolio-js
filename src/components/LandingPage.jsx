@@ -38,7 +38,7 @@ export default function LandingPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Front-End Developer | UI/UX Enthusiast | Web Animator
+          Front-End Developer | UI/UX Enthusiast | Web Automator
         </motion.p>
         <motion.a
           href="#projects"
@@ -47,7 +47,7 @@ export default function LandingPage() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 1 }}
         >
-          View My Work
+          <a href="#project"> View My Work</a>
         </motion.a>
       </section>
 

@@ -22,6 +22,10 @@ import skonnect from "./skonnect.png";
 import spotify from "./spotify.png";
 import toast from "./toast.jpeg";
 import wordpress from "./wordpress.jpg";
+import bootsrap from "./bootsrap.jpeg";
+import tailwind from "./tailwind.png";
+import airtable from "./airtable.png";
+import n8n from "./n8n.jpg";
 
 // Exporting all images as an object
 export const assets = {
@@ -45,6 +49,10 @@ export const assets = {
   spotify,
   toast,
   wordpress,
+  tailwind,
+  bootsrap,
+  airtable,
+  n8n,
 };
 
 export const projects = [
@@ -52,11 +60,11 @@ export const projects = [
     id: 1,
     title: "Student Connection App",
     description:
-      "A social web platform designed to help international students feel at home abroad. Students can connect with peers from their home country, send friend request,and chat in real-time using Django Websockets. The app includes secure authentication and profile customization and intergrates third party APIs to provide location-based updates on housing, transportation and cultural events.",
+      "A social web platform designed to help international students connect with peers, send friend requests, and chat in real-time. It features secure authentication, profile customization, and location-based updates on housing, transportation, and cultural events.",
     tech: ["Django", "Javascript", "HTML", "CSS"],
     image: skonnect,
-    liveDemo: "",
-    github: "",
+    liveDemo: "https://studentkonnection.onrender.com",
+    github: "'https://github.com/Elai5/studentkk'",
   },
   {
     id: 2,
@@ -65,8 +73,8 @@ export const projects = [
       "A responsive web showcase for the Assasin Creed franchise. Features include game guide, interactive quiz to help user find their ideal game.Contains news update,real-time comment section for community engagemen .",
     tech: ["HTML5", "CSS3", "Javascript"],
     image: creed,
-    liveDemo: "",
-    github: "",
+    liveDemo: "https://theassasincreed.netlify.app/",
+    github: "https://github.com/Elai5/assasin_creed",
   },
   {
     id: 3,
@@ -76,7 +84,7 @@ export const projects = [
     tech: ["Django", "Javascript", "HTML", "CSS", "APIs"],
     image: homekq,
     liveDemo: "",
-    github: "",
+    github: "https://github.com/Elai5/airline",
   },
   {
     id: 4,
@@ -85,7 +93,7 @@ export const projects = [
       "A fully responsive, pixel-perfect replicaof Spotify interface, built to provide an imersive, music streaming experinece.",
     tech: ["Javascript", "HTML", "CSS"],
     image: spotify,
-    liveDemo: "",
+    liveDemo: "https://randomspotify.netlify.app/",
     github: "",
   },
 ];

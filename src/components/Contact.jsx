@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useState } from "react";
+import { FaLinkedin, FaGithub, FaTwitter, FaEnvelopeOpenText } from "react-icons/fa";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -46,7 +47,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-16 bg-gray-950 text-white">
       <div className="max-w-3xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-2">Contact Me</h2>
+        <h2 className="text-3xl font-bold text-center mb-2 text-blue-500">Contact Me</h2>
         <p className="text-center italic text-gray-400 mb-10">
           Let’s connect — whether it’s collaboration, curiosity, or coffee ☕
         </p>
@@ -102,6 +103,26 @@ const Contact = () => {
             </button>
           </form>
         )}
+        <div className="mt-10 flex justify-center gap-6">
+          <a href="https://www.linkedin.com/in/elaine-yvette-74921524a/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-700 transition-colors duration-500">
+            <FaLinkedin size={32} /> 
+          </a>
+          <a href="https://github.com/Elai5"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-700 transition-colors duration-500">
+            <FaGithub size={32} /> 
+          </a>
+          <a href="mailto:yvettelaine007@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-700 transition-colors duration-500">
+            <FaEnvelopeOpenText size={32} /> 
+          </a>
+        </div>
       </div>
     </section>
   );

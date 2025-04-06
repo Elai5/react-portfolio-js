@@ -7,11 +7,11 @@ const Blog = () => {
   return (
     <section id="blog" className="py-12 bg-gray-900">
       <div className="max-w-screen-xl mx-auto px-4">
-        <h2 className="text-3xl font-semibold text-center text-blue-400 mb-5">
+        <h2 className="text-3xl font-semibold text-center text-blue-500 mb-5">
           {" "}
           My Journey
         </h2>
-        <h3 className="text-xl text-center text-gray-300 italic mb-6">
+        <h3 className="text-xl text-center text-gray-600 italic mb-6">
           "A path shaped by passion, perseverance, and continuous learning."
         </h3>
         <div className="relative">
