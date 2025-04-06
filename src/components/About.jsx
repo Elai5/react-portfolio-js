@@ -54,14 +54,14 @@ const About = () => {
               {" "}
               "A passionate developer, lifelong learner, and mentor."
             </h3>
-            <p className="text-base md:text-lg text-blue-300 mb-6 pl-0 py-0 ">
+            <p className="text-base md:text-lg text-gray-300 mb-6 sm:pl-0 py-0 ">
               Hello! I'm Elaine Yvette, a passionate Front-end Developer with a
               keen intrest in UI/UX Design and web animation. I specialize in
               creating websites that provide seamless user experience. With a
               love for creative problem-solving, I am to bring innovative
               digitalsolutions to life.
             </p>
-            <p className="text-base md:text-lg text-gray-300  mb-6">
+            <p className="text-base md:text-lg text-gray-300  mb-6 -mx-4 sm:mx-0">
               Throughout my career, I've worked on several projects where I've
               contributed my skills web automation,React,Airtable and many more.
               I'm constantly exploring new technologies and methodologies to
