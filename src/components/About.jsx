@@ -50,11 +50,11 @@ const About = () => {
           </div>
           <div className="w-full md:w-1/2 md:pl-10">
             <h2 className="text-3xl font-bold mb-4 text-blue-500 ">About Me</h2>
-            <h3 className="text-sm md:text-xl text-gray-600 mb-5 pl-8 italic">
+            <h3 className="text-base md:text-xl text-gray-600 mb-5 pl-8 italic">
               {" "}
               "A passionate developer, lifelong learner, and mentor."
             </h3>
-            <p className="text-sm md:text-lg text-gray-300 mb-6">
+            <p className="text-base md:text-lg text-gray-300 mb-6">
               Hello! I'm Elaine Yvette, a passionate Front-end Developer with a
               keen intrest in UI/UX Design and web animation. I specialize in
               creating websites that provide seamless user experience. With a

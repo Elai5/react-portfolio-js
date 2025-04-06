@@ -9,7 +9,7 @@ export default function Projects() {
       className="py-20 px-6 pl-15 pr-15 bg-gray-950 text-blue-500"
     >
       <h2 className="text-4xl font-bold text-center mb-6">My Projects</h2>
-      <h3 className="text-gray-600 text-center mb-8 text-xs md:text-xl italic">
+      <h3 className="text-gray-600 text-center mb-8 text-sm md:text-xl italic">
         "Each project begins with a problem, and I craft solutions by
         translating ideas into powerful, intuitive design."
       </h3>
@@ -49,7 +49,7 @@ export default function Projects() {
                   href={project.liveDemo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block px-4 py-2 text-sm md:text-base bg-blue-600 hover:bg-blue-700 text-white rounded-md"
+                  className="inline-block px-4 py-2 text-sm sm:text-base md:text-lg bg-blue-600 hover:bg-blue-700 text-white rounded-md"
                 >
                   Live Demo
                 </a>
@@ -57,7 +57,7 @@ export default function Projects() {
                   href={project.liveDemo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block px-4 py-2 bg-gray-700 hover:bg-blue-700 text-white rounded-md"
+                  className="inline-block px-4 py-2 text-sm sm:text- bg-gray-700 hover:bg-blue-700 text-white rounded-md"
                 >
                   Github Link
                 </a>
