@@ -61,7 +61,7 @@ const About = () => {
               love for creative problem-solving, I am to bring innovative
               digitalsolutions to life.
             </p>
-            <p className="text-lg text-gray-300  mb-6">
+            <p className="test-sm md:text-lg text-gray-300  mb-6">
               Throughout my career, I've worked on several projects where I've
               contributed my skills web automation,React,Airtable and many more.
               I'm constantly exploring new technologies and methodologies to
@@ -70,13 +70,13 @@ const About = () => {
             <div className="flex gap-4">
               <a
                 href="#projects"
-                className="mt-6 inline-block px-8 py-3 bg-blue-500 text-white rounded-lg text-xl shadow-lg hover:bg-blue-600 transition duration-300"
+                className="mt-6 inline-block px-6 py-2 md:px-8 md:py-3 bg-blue-500 text-white rounded-lg text-base md:text-xl shadow-lg hover:bg-blue-600 transition duration-300"
               >
                 <a href="#project"> View My Work</a>
               </a>
               <a
                 href="#contact"
-                className="mt-6 inline-block px-8 py-3 bg-gray-700 text-white rounded-lg text-xl shadow-lg hover:bg-gray-600 transition duration-300"
+                className="mt-6 inline-block px-6 py-2 md:px-8 md:py-3 bg-gray-700 text-white rounded-lg text-base md:text-xl shadow-lg hover:bg-gray-600 transition duration-300"
               >
                 <a href="#project"> Download CV</a>
               </a>
