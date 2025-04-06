@@ -61,7 +61,7 @@ const About = () => {
               love for creative problem-solving, I am to bring innovative
               digitalsolutions to life.
             </p>
-            <p className="text-sm md:text-lg text-gray-300  mb-6">
+            <p className="text-base md:text-lg text-gray-300  mb-6">
               Throughout my career, I've worked on several projects where I've
               contributed my skills web automation,React,Airtable and many more.
               I'm constantly exploring new technologies and methodologies to
