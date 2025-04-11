@@ -8,7 +8,7 @@ export default function Projects() {
       id="projects"
       className="py-20 px-6 pl-15 pr-15 bg-gray-950 text-blue-500"
     >
-      <h2 className="text-4xl font-bold text-center mb-6">My Projects</h2>
+      <h2 className="text-3xl font-bold text-center mb-4">My Projects</h2>
       <h3 className="text-gray-600 text-center mb-8 text-base md:text-xl italic">
         "Each project begins with a problem, and I craft solutions by
         translating ideas into powerful, intuitive design."

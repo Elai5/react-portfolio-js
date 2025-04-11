@@ -11,3 +11,10 @@
 html {
   scroll-behavior: smooth;
 }
+#about h3{
+  color: gray;
+}
+
+#about p{
+  text-align: justify;
+}
